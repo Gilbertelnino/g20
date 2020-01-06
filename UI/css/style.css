@@ -204,8 +204,7 @@ nav a:hover{
 }
 #review-section img{
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 100%;
 }
 #review-section p{
     line-height: 1.4;
@@ -846,12 +845,13 @@ nav a:hover{
     padding: 1rem 0;
 }
 #project-section h2 a{
+    text-align: center;
     color: rgb(75, 67, 67);
     text-transform: capitalize;
-    font-size-adjust: 1.2rem;
+    font-size: 1.1rem;
 }
 #project-section h2 a:hover{
-    color: blue;
+    color: rgb(73, 73, 160);
 }
 #project-section p{
     padding-bottom: 1rem;
