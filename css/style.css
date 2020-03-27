@@ -204,7 +204,8 @@ nav a:hover{
 }
 #review-section img{
     border-radius: 50%;
-    width: 100%;
+    width: 400px;
+    height: 400px;
 }
 #review-section p{
     line-height: 1.4;
@@ -251,9 +252,6 @@ nav a:hover{
     color: rgb(46, 46, 46);
     text-align: center;
 }
-#footer-container a{
-    overflow: hidden;
-}
 #footer-container .link1 img{
     grid-area: link1;
 }
@@ -279,8 +277,8 @@ nav a:hover{
     grid-area: link8;
 }
 #footer-container a:hover img{
-    transform: scale(1.2);
-    transition: 3s;
+    transform: scale(1.05);
+    transition: 2s
 }
 #copyright-container{
     text-align: center;
@@ -848,13 +846,12 @@ nav a:hover{
     padding: 1rem 0;
 }
 #project-section h2 a{
-    text-align: center;
     color: rgb(75, 67, 67);
     text-transform: capitalize;
-    font-size: 1.1rem;
+    font-size-adjust: 1.2rem;
 }
 #project-section h2 a:hover{
-    color: rgb(73, 73, 160);
+    color: blue;
 }
 #project-section p{
     padding-bottom: 1rem;
