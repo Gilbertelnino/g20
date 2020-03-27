@@ -1,0 +1,26 @@
+{
+  "name": "g20",
+  "version": "1.0.0",
+  "description": "weight loss and health motivation website",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d UI"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gilbertelnino/g20.git"
+  },
+  "keywords": [
+    "elnino"
+  ],
+  "author": "gilbert ndatimana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gilbertelnino/g20/issues"
+  },
+  "homepage": "https://github.com/Gilbertelnino/g20#readme"
+}
